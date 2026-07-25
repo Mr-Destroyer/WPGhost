@@ -23,18 +23,18 @@ BOLD   = "\033[1m"
 RESET  = "\033[0m"
 DIM    = "\033[2m"
 
-BANNER = f"""
+BANNER = rf"""
 {CYAN}{BOLD}
-  ██████╗██╗   ██╗███████╗    ██████╗  ██████╗ ██████╗ ██╗  ██╗       
- ██╔════╝██║   ██║██╔════╝    ╚════██╗██╔═████╗╚════██╗██║  ██║       
- ██║     ██║   ██║█████╗█████╗ █████╔╝██║██╔██║ █████╔╝███████║       
- ██║     ╚██╗ ██╔╝██╔══╝╚════╝██╔═══╝ ████╔╝██║██╔═══╝ ╚════██║       
- ╚██████╗ ╚████╔╝ ███████╗    ███████╗╚██████╔╝███████╗      ██║       
-  ╚═════╝  ╚═══╝  ╚══════╝    ╚══════╝ ╚═════╝ ╚══════╝      ╚═╝       
+__    __  ____          ____  __ __   ___   _____ ______ 
+|  |__|  ||    \        /    ||  |  | /   \ / ___/|      |
+|  |  |  ||  o  )_____ |   __||  |  ||     (   \_ |      |
+|  |  |  ||   _/|     ||  |  ||  _  ||  O  |\__  ||_|  |_|
+|  `  '  ||  |  |_____||  |_ ||  |  ||     |/  \ |  |  |  
+ \      / |  |         |     ||  |  ||     |\    |  |  |  
+  \_/\_/  |__|         |___,_||__|__| \___/  \___|  |__| 
 {RESET}
-{DIM}  Really Simple Security Plugin — Authentication Bypass Scanner{RESET}
-{DIM}  CVE-2024-10924 | CVSS 9.8 CRITICAL{RESET}
-{YELLOW}  ⚠  For authorized testing and educational use only{RESET}
+{DIM}  For authorized testing and educational use only{RESET}
+{YELLOW}  ⚠  Use responsibly on systems you own{RESET}
 {"─"*65}
 """
 
